@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 
 # This tags and uploads an image to Docker Hub
+source environment
 
 # Step 1:
 # This is your Docker ID/path
-dockerpath=mbilalce/housing-pred
+# Tag will be loaded from the environment file
 
 # Step 2
 # Run the Docker Hub container with kubernetes
